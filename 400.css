@@ -1,0 +1,26 @@
+/* lahai-roi-latin-400-normal */
+@font-face {
+  font-family: 'Lahai-Roi';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/lahai-roi-latin-400-normal.woff2) format('woff2'), url(./files/lahai-roi-latin-400-normal.woff) format('woff');
+}
+
+/* ragunna-latin-400-normal */
+@font-face {
+  font-family: 'Ragunna';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/ragunna-latin-400-normal.woff2) format('woff2'), url(./files/ragunna-latin-400-normal.woff) format('woff');
+}
+
+/* septimont-latin-400-normal */
+@font-face {
+  font-family: 'Septimont';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/septimont-latin-400-normal.woff2) format('woff2'), url(./files/septimont-latin-400-normal.woff) format('woff');
+}

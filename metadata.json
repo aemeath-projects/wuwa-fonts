@@ -1,0 +1,61 @@
+{
+  "families": [
+    {
+      "id": "lahai-roi",
+      "family": "Lahai-Roi",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2025-06-29",
+      "version": "v1.0",
+      "category": "sans-serif",
+      "license": {
+        "type": "OFL-1.1",
+        "url": "https://scripts.sil.org/OFL",
+        "attribution": "aemeath-projects"
+      },
+      "source": "https://github.com/aemeath-projects/fonts",
+      "type": "other"
+    },
+    {
+      "id": "ragunna",
+      "family": "Ragunna",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2025-06-29",
+      "version": "v1.0",
+      "category": "sans-serif",
+      "license": {
+        "type": "OFL-1.1",
+        "url": "https://scripts.sil.org/OFL",
+        "attribution": "aemeath-projects"
+      },
+      "source": "https://github.com/aemeath-projects/fonts",
+      "type": "other"
+    },
+    {
+      "id": "septimont",
+      "family": "Septimont",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2025-06-29",
+      "version": "v1.0",
+      "category": "sans-serif",
+      "license": {
+        "type": "OFL-1.1",
+        "url": "https://scripts.sil.org/OFL",
+        "attribution": "aemeath-projects"
+      },
+      "source": "https://github.com/aemeath-projects/fonts",
+      "type": "other"
+    }
+  ]
+}
