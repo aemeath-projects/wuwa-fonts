@@ -5,6 +5,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(./files/lahai-roi-latin-400-normal.woff2) format('woff2'), url(./files/lahai-roi-latin-400-normal.woff) format('woff');
+  unicode-range: U+0020,U+0025,U+002E,U+0030-0039,U+0041-005A,U+0061-007A;
 }
 
 /* ragunna-latin-400-normal */
@@ -14,6 +15,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(./files/ragunna-latin-400-normal.woff2) format('woff2'), url(./files/ragunna-latin-400-normal.woff) format('woff');
+  unicode-range: U+0020,U+0025,U+002E,U+0030-0039,U+0041-005A,U+0061-007A;
 }
 
 /* septimont-latin-400-normal */
@@ -23,4 +25,5 @@
   font-display: swap;
   font-weight: 400;
   src: url(./files/septimont-latin-400-normal.woff2) format('woff2'), url(./files/septimont-latin-400-normal.woff) format('woff');
+  unicode-range: U+0020,U+0025,U+002E,U+0030-0039,U+0041-005A,U+0061-007A;
 }

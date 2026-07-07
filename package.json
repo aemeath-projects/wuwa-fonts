@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Self-host the Lahai-Roi, Ragunna, and Septimont fonts in a neatly bundled NPM package.",
   "main": "index.css",
-  "type": "module",
   "publishConfig": {
     "access": "public"
   },
@@ -21,49 +20,162 @@
     "sass",
     "front-end",
     "web",
-    "typeface"
+    "typeface",
+    "variable"
   ],
   "exports": {
-    ".": { "sass": "./index.css", "default": "./index.css" },
-    "./lahai-roi": { "sass": "./lahai-roi.css", "default": "./lahai-roi.css" },
-    "./lahai-roi.css": { "sass": "./lahai-roi.css", "default": "./lahai-roi.css" },
-    "./ragunna": { "sass": "./ragunna.css", "default": "./ragunna.css" },
-    "./ragunna.css": { "sass": "./ragunna.css", "default": "./ragunna.css" },
-    "./septimont": { "sass": "./septimont.css", "default": "./septimont.css" },
-    "./septimont.css": { "sass": "./septimont.css", "default": "./septimont.css" },
-    "./400": { "sass": "./400.css", "default": "./400.css" },
-    "./400.css": { "sass": "./400.css", "default": "./400.css" },
-    "./latin": { "sass": "./latin.css", "default": "./latin.css" },
-    "./latin.css": { "sass": "./latin.css", "default": "./latin.css" },
-    "./latin-400": { "sass": "./latin-400.css", "default": "./latin-400.css" },
-    "./latin-400.css": { "sass": "./latin-400.css", "default": "./latin-400.css" },
-    "./latin-lahai-roi": { "sass": "./latin-lahai-roi.css", "default": "./latin-lahai-roi.css" },
-    "./latin-lahai-roi.css": { "sass": "./latin-lahai-roi.css", "default": "./latin-lahai-roi.css" },
-    "./latin-ragunna": { "sass": "./latin-ragunna.css", "default": "./latin-ragunna.css" },
-    "./latin-ragunna.css": { "sass": "./latin-ragunna.css", "default": "./latin-ragunna.css" },
-    "./latin-septimont": { "sass": "./latin-septimont.css", "default": "./latin-septimont.css" },
-    "./latin-septimont.css": { "sass": "./latin-septimont.css", "default": "./latin-septimont.css" },
-    "./lahai-roi-400": { "sass": "./lahai-roi-400.css", "default": "./lahai-roi-400.css" },
-    "./lahai-roi-400.css": { "sass": "./lahai-roi-400.css", "default": "./lahai-roi-400.css" },
-    "./ragunna-400": { "sass": "./ragunna-400.css", "default": "./ragunna-400.css" },
-    "./ragunna-400.css": { "sass": "./ragunna-400.css", "default": "./ragunna-400.css" },
-    "./septimont-400": { "sass": "./septimont-400.css", "default": "./septimont-400.css" },
-    "./septimont-400.css": { "sass": "./septimont-400.css", "default": "./septimont-400.css" },
-    "./latin-lahai-roi-400": { "sass": "./latin-lahai-roi-400.css", "default": "./latin-lahai-roi-400.css" },
-    "./latin-lahai-roi-400.css": { "sass": "./latin-lahai-roi-400.css", "default": "./latin-lahai-roi-400.css" },
-    "./latin-ragunna-400": { "sass": "./latin-ragunna-400.css", "default": "./latin-ragunna-400.css" },
-    "./latin-ragunna-400.css": { "sass": "./latin-ragunna-400.css", "default": "./latin-ragunna-400.css" },
-    "./latin-septimont-400": { "sass": "./latin-septimont-400.css", "default": "./latin-septimont-400.css" },
-    "./latin-septimont-400.css": { "sass": "./latin-septimont-400.css", "default": "./latin-septimont-400.css" },
+    ".": {
+      "sass": "./index.css",
+      "default": "./index.css"
+    },
+    "./*": {
+      "sass": "./*.css",
+      "default": "./*.css"
+    },
+    "./*.css": {
+      "sass": "./*.css",
+      "default": "./*.css"
+    },
+    "./lahai-roi": {
+      "sass": "./lahai-roi.css",
+      "default": "./lahai-roi.css"
+    },
+    "./lahai-roi.css": {
+      "sass": "./lahai-roi.css",
+      "default": "./lahai-roi.css"
+    },
+    "./ragunna": {
+      "sass": "./ragunna.css",
+      "default": "./ragunna.css"
+    },
+    "./ragunna.css": {
+      "sass": "./ragunna.css",
+      "default": "./ragunna.css"
+    },
+    "./septimont": {
+      "sass": "./septimont.css",
+      "default": "./septimont.css"
+    },
+    "./septimont.css": {
+      "sass": "./septimont.css",
+      "default": "./septimont.css"
+    },
+    "./400": {
+      "sass": "./400.css",
+      "default": "./400.css"
+    },
+    "./400.css": {
+      "sass": "./400.css",
+      "default": "./400.css"
+    },
+    "./latin": {
+      "sass": "./latin.css",
+      "default": "./latin.css"
+    },
+    "./latin.css": {
+      "sass": "./latin.css",
+      "default": "./latin.css"
+    },
+    "./latin-400": {
+      "sass": "./latin-400.css",
+      "default": "./latin-400.css"
+    },
+    "./latin-400.css": {
+      "sass": "./latin-400.css",
+      "default": "./latin-400.css"
+    },
+    "./latin-lahai-roi": {
+      "sass": "./latin-lahai-roi.css",
+      "default": "./latin-lahai-roi.css"
+    },
+    "./latin-lahai-roi.css": {
+      "sass": "./latin-lahai-roi.css",
+      "default": "./latin-lahai-roi.css"
+    },
+    "./latin-ragunna": {
+      "sass": "./latin-ragunna.css",
+      "default": "./latin-ragunna.css"
+    },
+    "./latin-ragunna.css": {
+      "sass": "./latin-ragunna.css",
+      "default": "./latin-ragunna.css"
+    },
+    "./latin-septimont": {
+      "sass": "./latin-septimont.css",
+      "default": "./latin-septimont.css"
+    },
+    "./latin-septimont.css": {
+      "sass": "./latin-septimont.css",
+      "default": "./latin-septimont.css"
+    },
+    "./lahai-roi-400": {
+      "sass": "./lahai-roi-400.css",
+      "default": "./lahai-roi-400.css"
+    },
+    "./lahai-roi-400.css": {
+      "sass": "./lahai-roi-400.css",
+      "default": "./lahai-roi-400.css"
+    },
+    "./ragunna-400": {
+      "sass": "./ragunna-400.css",
+      "default": "./ragunna-400.css"
+    },
+    "./ragunna-400.css": {
+      "sass": "./ragunna-400.css",
+      "default": "./ragunna-400.css"
+    },
+    "./septimont-400": {
+      "sass": "./septimont-400.css",
+      "default": "./septimont-400.css"
+    },
+    "./septimont-400.css": {
+      "sass": "./septimont-400.css",
+      "default": "./septimont-400.css"
+    },
+    "./latin-lahai-roi-400": {
+      "sass": "./latin-lahai-roi-400.css",
+      "default": "./latin-lahai-roi-400.css"
+    },
+    "./latin-lahai-roi-400.css": {
+      "sass": "./latin-lahai-roi-400.css",
+      "default": "./latin-lahai-roi-400.css"
+    },
+    "./latin-ragunna-400": {
+      "sass": "./latin-ragunna-400.css",
+      "default": "./latin-ragunna-400.css"
+    },
+    "./latin-ragunna-400.css": {
+      "sass": "./latin-ragunna-400.css",
+      "default": "./latin-ragunna-400.css"
+    },
+    "./latin-septimont-400": {
+      "sass": "./latin-septimont-400.css",
+      "default": "./latin-septimont-400.css"
+    },
+    "./latin-septimont-400.css": {
+      "sass": "./latin-septimont-400.css",
+      "default": "./latin-septimont-400.css"
+    },
     "./LICENSE": "./LICENSE",
     "./README.md": "./README.md",
     "./package.json": "./package.json",
     "./metadata.json": "./metadata.json",
     "./unicode.json": "./unicode.json",
-    "./scss": { "sass": "./scss/metadata.scss" },
-    "./files/*": { "sass": "./files/*", "default": "./files/*" },
-    "./files/*.woff": { "sass": "./files/*.woff", "default": "./files/*.woff" },
-    "./files/*.woff2": { "sass": "./files/*.woff2", "default": "./files/*.woff2" }
+    "./scss": {
+      "sass": "./scss/metadata.scss"
+    },
+    "./files/*": {
+      "sass": "./files/*",
+      "default": "./files/*"
+    },
+    "./files/*.woff": {
+      "sass": "./files/*.woff",
+      "default": "./files/*.woff"
+    },
+    "./files/*.woff2": {
+      "sass": "./files/*.woff2",
+      "default": "./files/*.woff2"
+    }
   },
   "author": "aemeath-projects",
   "license": "OFL-1.1",
@@ -74,6 +186,26 @@
     "url": "git+https://github.com/aemeath-projects/fonts.git"
   },
   "scripts": {
-    "convert": "python scripts/convert.py"
+    "convert": "python scripts/convert.py",
+    "commit": "cz",
+    "release": "commit-and-tag-version",
+    "release:patch": "commit-and-tag-version --release-as patch",
+    "release:minor": "commit-and-tag-version --release-as minor",
+    "release:major": "commit-and-tag-version --release-as major",
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "packageManager": "pnpm@11.10.0",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.0",
+    "@commitlint/config-conventional": "^21.2.0",
+    "commit-and-tag-version": "^12.7.3",
+    "commitizen": "^4.3.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7"
   }
 }
