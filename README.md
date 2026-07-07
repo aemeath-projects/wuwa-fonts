@@ -2,6 +2,9 @@
 
 鸣潮字体库
 
+![NPM Version](https://img.shields.io/npm/v/%40aemeath-projects%2Fwuwa-fonts?style=for-the-badge)
+![License](https://img.shields.io/github/license/aemeath-projects/wuwa-fonts?style=for-the-badge)
+
 ## 快速安装
 
 ```bash
