@@ -194,11 +194,11 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@12.11.2",
   "devDependencies": {
-    "@commitlint/cli": "^21.2.0",
-    "@commitlint/config-conventional": "^21.2.0",
-    "commit-and-tag-version": "^12.7.3",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "commit-and-tag-version": "^13.2.1",
     "commitizen": "^4.3.2",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7"
