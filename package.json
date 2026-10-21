@@ -1,6 +1,6 @@
 {
   "name": "@aemeath-projects/wuwa-fonts",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "鸣潮字体库",
   "main": "index.css",
   "scripts": {

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/aemeath-projects/wuwa-fonts/compare/v0.1.1...v1.0.0) (2026-10-21)
+
+### ⚠ BREAKING CHANGES
+
+* 包根路径默认加载的字体由 Lahai-Roi 改为
+  Solaris Universal，依赖默认字体族的项目需显式导入
+  @aemeath-projects/wuwa-fonts/lahai-roi.css。
+
+### Features
+
+* 新增四款字体家族并调整默认入口 ([5d4f39e](https://github.com/aemeath-projects/wuwa-fonts/commit/5d4f39e9f1022dc1770a4028735901da427f409a))
+
 ## [0.1.1](https://github.com/aemeath-projects/wuwa-fonts/compare/v0.1.0...v0.1.1) (2026-07-07)
 
 
