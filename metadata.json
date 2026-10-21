@@ -1,6 +1,82 @@
 {
   "families": [
     {
+      "id": "solaris-universal",
+      "family": "Solaris Universal",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2026-09-27",
+      "version": "v1.000",
+      "category": "display",
+      "license": {
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
+      },
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+      "type": "other"
+    },
+    {
+      "id": "digital-tube",
+      "family": "Digital Tube",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2024-11-25",
+      "version": "v1.000",
+      "category": "display",
+      "license": {
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
+      },
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+      "type": "other"
+    },
+    {
+      "id": "rinascita-ribbon",
+      "family": "Rinascita Ribbon",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2024-11-25",
+      "version": "v1.000",
+      "category": "display",
+      "license": {
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
+      },
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+      "type": "other"
+    },
+    {
+      "id": "old-font",
+      "family": "Old Font",
+      "subsets": ["latin"],
+      "weights": [400],
+      "styles": ["normal"],
+      "defSubset": "latin",
+      "variable": false,
+      "lastModified": "2026-07-11",
+      "version": "v1.000",
+      "category": "display",
+      "license": {
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
+      },
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+      "type": "other"
+    },
+    {
       "id": "lahai-roi",
       "family": "Lahai-Roi",
       "subsets": ["latin"],
@@ -8,15 +84,15 @@
       "styles": ["normal"],
       "defSubset": "latin",
       "variable": false,
-      "lastModified": "2025-06-29",
-      "version": "v1.0",
-      "category": "sans-serif",
+      "lastModified": "2026-07-27",
+      "version": "v1.000",
+      "category": "display",
       "license": {
-        "type": "OFL-1.1",
-        "url": "https://openfontlicense.org",
-        "attribution": "aemeath-projects"
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
       },
-      "source": "https://github.com/aemeath-projects/fonts",
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
       "type": "other"
     },
     {
@@ -27,15 +103,15 @@
       "styles": ["normal"],
       "defSubset": "latin",
       "variable": false,
-      "lastModified": "2025-06-29",
-      "version": "v1.0",
-      "category": "sans-serif",
+      "lastModified": "2026-01-27",
+      "version": "v1.000",
+      "category": "display",
       "license": {
-        "type": "OFL-1.1",
-        "url": "https://openfontlicense.org",
-        "attribution": "aemeath-projects"
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
       },
-      "source": "https://github.com/aemeath-projects/fonts",
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
       "type": "other"
     },
     {
@@ -46,15 +122,15 @@
       "styles": ["normal"],
       "defSubset": "latin",
       "variable": false,
-      "lastModified": "2025-06-29",
-      "version": "v1.0",
-      "category": "sans-serif",
+      "lastModified": "2026-01-28",
+      "version": "v1.000",
+      "category": "display",
       "license": {
-        "type": "OFL-1.1",
-        "url": "https://openfontlicense.org",
-        "attribution": "aemeath-projects"
+        "type": "UNLICENSED",
+        "url": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
+        "attribution": "字体版权归库洛游戏（Kuro Games）所有，Aemeath Projects 仅做格式转换与打包"
       },
-      "source": "https://github.com/aemeath-projects/fonts",
+      "source": "https://wuwa.huijiwiki.com/wiki/%E6%96%87%E5%AD%97%E5%AF%B9%E7%85%A7%E8%A1%A8",
       "type": "other"
     }
   ]

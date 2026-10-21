@@ -15,6 +15,14 @@
     "fontsource",
     "font",
     "font family",
+    "solaris-universal",
+    "Solaris Universal",
+    "digital-tube",
+    "Digital Tube",
+    "rinascita-ribbon",
+    "Rinascita Ribbon",
+    "old-font",
+    "Old Font",
     "lahai-roi",
     "Lahai-Roi",
     "ragunna",
@@ -25,141 +33,20 @@
     "sass",
     "front-end",
     "web",
-    "typeface",
-    "variable"
+    "typeface"
   ],
   "exports": {
     ".": {
       "sass": "./index.css",
       "default": "./index.css"
     },
-    "./*": {
-      "sass": "./*.css",
-      "default": "./*.css"
-    },
     "./*.css": {
       "sass": "./*.css",
       "default": "./*.css"
     },
-    "./lahai-roi": {
-      "sass": "./lahai-roi.css",
-      "default": "./lahai-roi.css"
-    },
-    "./lahai-roi.css": {
-      "sass": "./lahai-roi.css",
-      "default": "./lahai-roi.css"
-    },
-    "./ragunna": {
-      "sass": "./ragunna.css",
-      "default": "./ragunna.css"
-    },
-    "./ragunna.css": {
-      "sass": "./ragunna.css",
-      "default": "./ragunna.css"
-    },
-    "./septimont": {
-      "sass": "./septimont.css",
-      "default": "./septimont.css"
-    },
-    "./septimont.css": {
-      "sass": "./septimont.css",
-      "default": "./septimont.css"
-    },
-    "./400": {
-      "sass": "./400.css",
-      "default": "./400.css"
-    },
-    "./400.css": {
-      "sass": "./400.css",
-      "default": "./400.css"
-    },
-    "./latin": {
-      "sass": "./latin.css",
-      "default": "./latin.css"
-    },
-    "./latin.css": {
-      "sass": "./latin.css",
-      "default": "./latin.css"
-    },
-    "./latin-400": {
-      "sass": "./latin-400.css",
-      "default": "./latin-400.css"
-    },
-    "./latin-400.css": {
-      "sass": "./latin-400.css",
-      "default": "./latin-400.css"
-    },
-    "./latin-lahai-roi": {
-      "sass": "./latin-lahai-roi.css",
-      "default": "./latin-lahai-roi.css"
-    },
-    "./latin-lahai-roi.css": {
-      "sass": "./latin-lahai-roi.css",
-      "default": "./latin-lahai-roi.css"
-    },
-    "./latin-ragunna": {
-      "sass": "./latin-ragunna.css",
-      "default": "./latin-ragunna.css"
-    },
-    "./latin-ragunna.css": {
-      "sass": "./latin-ragunna.css",
-      "default": "./latin-ragunna.css"
-    },
-    "./latin-septimont": {
-      "sass": "./latin-septimont.css",
-      "default": "./latin-septimont.css"
-    },
-    "./latin-septimont.css": {
-      "sass": "./latin-septimont.css",
-      "default": "./latin-septimont.css"
-    },
-    "./lahai-roi-400": {
-      "sass": "./lahai-roi-400.css",
-      "default": "./lahai-roi-400.css"
-    },
-    "./lahai-roi-400.css": {
-      "sass": "./lahai-roi-400.css",
-      "default": "./lahai-roi-400.css"
-    },
-    "./ragunna-400": {
-      "sass": "./ragunna-400.css",
-      "default": "./ragunna-400.css"
-    },
-    "./ragunna-400.css": {
-      "sass": "./ragunna-400.css",
-      "default": "./ragunna-400.css"
-    },
-    "./septimont-400": {
-      "sass": "./septimont-400.css",
-      "default": "./septimont-400.css"
-    },
-    "./septimont-400.css": {
-      "sass": "./septimont-400.css",
-      "default": "./septimont-400.css"
-    },
-    "./latin-lahai-roi-400": {
-      "sass": "./latin-lahai-roi-400.css",
-      "default": "./latin-lahai-roi-400.css"
-    },
-    "./latin-lahai-roi-400.css": {
-      "sass": "./latin-lahai-roi-400.css",
-      "default": "./latin-lahai-roi-400.css"
-    },
-    "./latin-ragunna-400": {
-      "sass": "./latin-ragunna-400.css",
-      "default": "./latin-ragunna-400.css"
-    },
-    "./latin-ragunna-400.css": {
-      "sass": "./latin-ragunna-400.css",
-      "default": "./latin-ragunna-400.css"
-    },
-    "./latin-septimont-400": {
-      "sass": "./latin-septimont-400.css",
-      "default": "./latin-septimont-400.css"
-    },
-    "./latin-septimont-400.css": {
-      "sass": "./latin-septimont-400.css",
-      "default": "./latin-septimont-400.css"
+    "./*": {
+      "sass": "./*.css",
+      "default": "./*.css"
     },
     "./LICENSE": "./LICENSE",
     "./README.md": "./README.md",
@@ -183,7 +70,7 @@
     }
   },
   "author": "Aemeath Projects",
-  "license": "OFL-1.1",
+  "license": "MIT",
   "homepage": "https://aemeath.dev",
   "repository": {
     "type": "git",
@@ -194,7 +81,7 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "packageManager": "pnpm@12.11.2",
+  "packageManager": "pnpm@12.14.0",
   "devDependencies": {
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",

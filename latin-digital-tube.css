@@ -1,0 +1,9 @@
+/* digital-tube-latin-400-normal */
+@font-face {
+  font-family: 'Digital Tube';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/digital-tube-latin-400-normal.woff2) format('woff2'), url(./files/digital-tube-latin-400-normal.woff) format('woff');
+  unicode-range: U+0030-0039;
+}
