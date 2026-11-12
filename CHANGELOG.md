@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.0](https://github.com/aemeath-projects/wuwa-fonts/compare/v1.0.0...v1.1.0) (2026-11-12)
+
+### Features
+
+* 新增 Federation（联邦文字）字体家族 ([f979fe6](https://github.com/aemeath-projects/wuwa-fonts/commit/f979fe696af795d35ad4d4ae2489134a8e1c2110))
+
 ## [1.0.0](https://github.com/aemeath-projects/wuwa-fonts/compare/v0.1.1...v1.0.0) (2026-10-21)
 
 ### ⚠ BREAKING CHANGES
