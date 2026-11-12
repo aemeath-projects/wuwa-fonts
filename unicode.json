@@ -19,5 +19,8 @@
   },
   "septimont": {
     "latin": "U+0041-005A,U+0061-007A"
+  },
+  "federation": {
+    "latin": "U+002E,U+0041-005A,U+0061-007A"
   }
 }

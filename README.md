@@ -22,7 +22,8 @@ import "@aemeath-projects/wuwa-fonts/old-font.css";                // 仅 Old Fo
 import "@aemeath-projects/wuwa-fonts/lahai-roi.css";               // 仅 Lahai-Roi
 import "@aemeath-projects/wuwa-fonts/ragunna.css";                 // 仅 Ragunna
 import "@aemeath-projects/wuwa-fonts/septimont.css";               // 仅 Septimont
-import "@aemeath-projects/wuwa-fonts/400.css";                     // 全部 7 款, weight 400
+import "@aemeath-projects/wuwa-fonts/federation.css";              // 仅 Federation
+import "@aemeath-projects/wuwa-fonts/400.css";                     // 全部 8 款, weight 400
 import "@aemeath-projects/wuwa-fonts/latin-lahai-roi.css";         // 单家族, 带 unicode-range
 ```
 
@@ -41,6 +42,7 @@ import "@aemeath-projects/wuwa-fonts/latin-lahai-roi.css";         // 单家族,
 | Lahai-Roi                | `lahai-roi`        | `0-9`、`A-Z`、`a-z`、`%`、`.`、`Δ/δ Θ/θ Μ/μ Π/π Σ/σ Φ/φ Ψ/ψ`、`∂`、`𝑋`、`𝑥` |
 | Ragunna                  | `ragunna`          | `A-Z`、`a-z`                                                   |
 | Septimont                | `septimont`        | `A-Z`、`a-z`（含 J、Z）                                        |
+| Federation               | `federation`       | `A-Z`、`a-z`、`.`                                              |
 
 精确 Unicode 范围见 [`unicode.json`](./unicode.json)，结构与家族 ID 一一对应。
 
@@ -97,5 +99,6 @@ code {
 | Lahai-Roi          | `WuWaLahai-RoiRegularNewXx.ttf`      |
 | Ragunna            | `WuWa_Ragunna_Decorated.ttf`         |
 | Septimont          | `WuWa_Septimont_Digital.ttf`         |
+| Federation         | `WuWa_Federation_Regular-261112.ttf` |
 
 本项目仅进行 TTF 到 WOFF/WOFF2 的格式转换和 npm 打包，不修改字形。本项目与库洛游戏及原始字体作者无关。
